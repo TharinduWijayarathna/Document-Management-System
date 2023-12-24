@@ -11,28 +11,28 @@
             </div>
         </div>
         <ul id="sidebar_menu">
-            <h4 class="menu-text"><span>Main Functions</span> <i class="fas fa-ellipsis-h"></i> </h4>
+            <h4 class="menu-text"><i class="fas fa-list"></i><span> Main Menu</span> </h4>
 
             <li>
                 <a href="#" aria-expanded="false">
                     <div class="nav_icon_small">
-                        <img src="../../../src/img/menu-icon/dashboard.svg" alt>
+                        <i class="fas fa-file-upload"></i>
                     </div>
                     <div class="nav_title">
-                        <span>Test</span>
+                        <span>Upload Documents</span>
                     </div>
                 </a>
             </li>
 
-            <h4 class="menu-text"><span>Configurations</span> <i class="fas fa-ellipsis-h"></i> </h4>
+            <h4 class="menu-text"> <i class="fas fa-cog"></i><span> Configurations</span></h4>
 
             <li>
                 <a href="#" aria-expanded="false">
-                    <div class="nav_icon_small">
-                        <img src="../../../src/img/menu-icon/dashboard.svg" alt>
+                    <div class="">
+                        <i class="fas fa-file-signature"></i>
                     </div>
                     <div class="nav_title">
-                        <span>Test</span>
+                        <span>Document Types</span>
                     </div>
                 </a>
             </li>

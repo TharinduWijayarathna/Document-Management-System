@@ -42,6 +42,7 @@ import '../src/vendors/chart_am/kelly.js';
 import '../src/vendors/chart_am/chart-custom.js';
 import '../src/js/dashboard_init.js';
 import '../src/js/custom.js';
+import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js';
 
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
