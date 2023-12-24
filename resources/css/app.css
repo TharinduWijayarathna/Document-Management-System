@@ -1,0 +1,23 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+@import url('../src/css/bootstrap1.min.css');
+@import url('../src/vendors/themefy_icon/themify-icons.css');
+@import url('../src/vendors/niceselect/css/nice-select.css');
+@import url('../src/vendors/owl_carousel/css/owl.carousel.css');
+@import url('../src/vendors/gijgo/gijgo.min.css');
+@import url('../src/vendors/font_awesome/css/all.min.css');
+@import url('../src/vendors/tagsinput/tagsinput.css');
+@import url('../src/vendors/datepicker/date-picker.css');
+@import url('../src/vendors/vectormap-home/vectormap-2.0.2.css');
+@import url('../src/vendors/scroll/scrollable.css');
+@import url('../src/vendors/datatable/css/jquery.dataTables.min.css');
+@import url('../src/vendors/datatable/css/responsive.dataTables.min.css');
+@import url('../src/vendors/datatable/css/buttons.dataTables.min.css');
+@import url('../src/vendors/text_editor/summernote-bs4.css');
+@import url('../src/vendors/morris/morris.css');
+@import url('../src/vendors/material_icon/material-icons.css');
+@import url('../src/css/metisMenu.css');
+@import url('../src/css/style1.css');
+/*@import url('../src/css/colors/default.css');*/
