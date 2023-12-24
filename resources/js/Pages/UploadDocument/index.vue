@@ -5,12 +5,12 @@
                 <div class="col-12">
                     <div class="page_title_box d-flex flex-wrap align-items-center justify-content-between">
                         <div class="page_title_left">
-                            <h3 class="f_s_25 f_w_700 dark_text">Document Type Management</h3>
+                            <h3 class="f_s_25 f_w_700 dark_text">Upload Document</h3>
                             <ol class="breadcrumb page_bradcam mb-0">
                                 <li class="breadcrumb-item">
                                     <Link :href="route('home')">Home</Link>
                                 </li>
-                                <li class="breadcrumb-item active">Document Type Management</li>
+                                <li class="breadcrumb-item active">Upload Document</li>
                             </ol>
                         </div>
 
@@ -18,7 +18,6 @@
                 </div>
             </div>
             <div class="row ">
-
 
 
                 <div class="col-xl-12">
@@ -34,10 +33,11 @@
                                                     <div class="col-md-5">
                                                         <input type="text" class="form-control">
                                                     </div>
-                                           
+
                                                     <div class="col-md-2">
-                                                        <button class="btn btn-md btn-primary text-center"><i class="fa fa-plus"></i></button>
-                                                        </div>
+                                                        <button class="btn btn-md btn-primary text-center"><i
+                                                                class="fa fa-plus"></i></button>
+                                                    </div>
                                                 </div>
 
                                             </div>
@@ -97,7 +97,8 @@
                     </div>
                 </div>
 
-                
+
+
             </div>
         </template>
     </AppLayout>

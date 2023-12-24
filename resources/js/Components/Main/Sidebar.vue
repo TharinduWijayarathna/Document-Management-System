@@ -14,27 +14,27 @@
             <h4 class="menu-text"><i class="fas fa-list"></i><span> Main Menu</span> </h4>
 
             <li>
-                <a href="#" aria-expanded="false">
-                    <div class="nav_icon_small">
-                        <i class="fas fa-file-upload"></i>
-                    </div>
-                    <div class="nav_title">
-                        <span>Upload Documents</span>
-                    </div>
-                </a>
+                <Link :href="route('upload_document.index')" aria-expanded="false">
+                <div class="nav_icon_small">
+                    <i class="fas fa-file-upload"></i>
+                </div>
+                <div class="nav_title">
+                    <span>Upload Documents</span>
+                </div>
+                </Link>
             </li>
 
             <h4 class="menu-text"> <i class="fas fa-cog"></i><span> Configurations</span></h4>
 
             <li>
-                <a href="#" aria-expanded="false">
-                    <div class="">
-                        <i class="fas fa-file-signature"></i>
-                    </div>
-                    <div class="nav_title">
-                        <span>Document Types</span>
-                    </div>
-                </a>
+                <Link :href="route('document_type.index')" aria-expanded="false">
+                <div class="">
+                    <i class="fas fa-file-signature"></i>
+                </div>
+                <div class="nav_title">
+                    <span>Document Types</span>
+                </div>
+                </Link>
             </li>
         </ul>
     </nav>

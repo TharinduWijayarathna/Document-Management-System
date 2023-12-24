@@ -48,19 +48,27 @@ import BackToTop from '@/Components/Main/BackToTop.vue';
 </script>
 
 <style>
-.header_iner{
+.header_iner {
     padding: 7px !important;
 }
 
-.bg-template{
+.bg-template {
     background-color: #1e1e2d;
 }
 
-body{
+body {
     background-image: url('/img/bg/bg.png');
 }
 
-.main_content_iner{
+.main_content_iner {
     background-color: transparent !important;
+}
+
+.dataTables_paginate {
+    margin-top: 0;
+}
+
+#DataTables_Table_0_info {
+    margin-top: 8px;
 }
 </style>
